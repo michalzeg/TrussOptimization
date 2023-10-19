@@ -1,5 +1,5 @@
 Set-Location ./src/TrussOptimization.Web/TrussOptimizationClientApp
-npm install
+yarn install
 Set-Location ../
 
 # Start the .NET application using dotnet run
