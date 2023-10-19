@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+  trussoptimization:
+    build: 
+        context: ../
+        dockerfile: ./build/Dockerfile
+        args:
+          NODE_VERSION: 14.21.3
+          PROJECT_NAME: TrussOptimization.Web
+    ports:
+    - "5000:80"
+  
+  
+    

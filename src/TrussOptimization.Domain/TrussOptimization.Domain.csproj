@@ -1,0 +1,47 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Sections\sections.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Sections\sections.json" TargetPath="sections.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="GeneticSharp" Version="3.1.4" />
+    <PackageReference Include="MathNet.Numerics" Version="5.0.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+	<ItemGroup>
+		<Reference Include="Common, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+			<SpecificVersion>False</SpecificVersion>
+			<HintPath>..\..\Binaries\Common.dll</HintPath>
+		</Reference>
+		<Reference Include="FEM2D">
+			<HintPath>..\..\Binaries\FEM2D.dll</HintPath>
+		</Reference>
+		<Reference Include="FEM2DCommon">
+			<HintPath>..\..\Binaries\FEM2DCommon.dll</HintPath>
+		</Reference>
+		<Reference Include="FEM2DDynamics">
+			<HintPath>..\..\Binaries\FEM2DDynamics.dll</HintPath>
+		</Reference>
+		<Reference Include="FEM2DOutput">
+			<HintPath>..\..\Binaries\FEM2DOutput.dll</HintPath>
+		</Reference>
+		<Reference Include="FEM2DStressCalculator">
+			<HintPath>..\..\Binaries\FEM2DStressCalculator.dll</HintPath>
+		</Reference>
+	</ItemGroup>
+
+</Project>

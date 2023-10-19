@@ -1,0 +1,60 @@
+{
+  "name": "TrussOptimization",
+  "version": "0.1.0",
+  "description": "Requires node 14 to build",
+  "private": true,
+  "scripts": {
+    "start": "npm run serve",
+    "serve": "cross-env-shell NODE_OPTIONS=--openssl-legacy-provider vue-cli-service serve",
+    "build:local": "cross-env NODE_OPTIONS=--openssl-legacy-provider vue-cli-service build",
+    "build": "vue-cli-service build",
+    "build-lib": "vue-cli-service build --target lib --name trussOptimization",
+    "lint": "vue-cli-service lint",
+    "test:e2e": "vue-cli-service test:e2e",
+    "test:unit": "vue-cli-service test:unit",
+    "timeout": "node -e \"require('node:timers/promises').setTimeout(5_000)\""
+  },
+  "dependencies": {
+    "@aspnet/signalr": "^1.1.4",
+    "@types/svg.js": "^2.3.1",
+    "@types/three": "^0.93.13",
+    "almost-equal": "^1.1.0",
+    "axios": "^0.18.1",
+    "chart.js": "^2.7.3",
+    "lodash": "^4.17.15",
+    "progressbar.js": "^1.0.1",
+    "stats-js": "^1.0.0",
+    "svg.js": "^2.7.1",
+    "three": "^0.99.0",
+    "three-lut": "^79.0.1",
+    "three-orbit-controls": "^82.1.0",
+    "three-trackballcontrols": "0.0.7",
+    "uiv": "^0.28.0",
+    "vue": "^2.5.17",
+    "vue-chartjs": "^3.4.0",
+    "vue-chartjs-typescript": "^3.3.3",
+    "vue-class-component": "^6.0.0",
+    "vue-property-decorator": "^7.0.0",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "@types/jest": "^23.1.4",
+    "@vue/cli-plugin-babel": "^3.0.5",
+    "@vue/cli-plugin-typescript": "^3.0.5",
+    "@vue/cli-service": "^3.0.5",
+    "babel-core": "7.0.0-bridge.0",
+    "cross-env": "^7.0.3",
+    "eslint-config-prettier": "^3.3.0",
+    "eslint-plugin-vue": "^4.7.1",
+    "sass-loader": "^7.0.1",
+    "tslint-config-prettier": "^1.17.0",
+    "typescript": "^3.0.0",
+    "vue-template-compiler": "^2.5.17"
+  },
+  "optionalDependencies": {
+    "@vue/cli-plugin-e2e-nightwatch": "^3.3.0",
+    "@vue/cli-plugin-unit-jest": "^3.0.5",
+    "@vue/test-utils": "^1.0.0-beta.26",
+    "ts-jest": "^23.0.0"
+  }
+}

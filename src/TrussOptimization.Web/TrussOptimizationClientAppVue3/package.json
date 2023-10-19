@@ -1,0 +1,73 @@
+{
+  "name": "vueapp",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@microsoft/signalr": "^7.0.9",
+    "almost-equal": "^1.1.0",
+    "axios": "^0.18.1",
+    "chart.js": "^4.3.2",
+    "core-js": "^3.8.3",
+    "lodash": "^4.17.15",
+    "progressbar.js": "^1.0.1",
+    "stats-js": "^1.0.0",
+    "svg.js": "^2.7.1",
+    "three": "^0.99.0",
+    "three-lut": "^79.0.1",
+    "three-orbit-controls": "^82.1.0",
+    "three-trackballcontrols": "0.0.7",
+    "vue": "^3.2.13",
+    "vue-chartjs": "^5.2.0",
+    "vuex": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/almost-equal": "^1.1.0",
+    "@types/lodash": "^4.14.120",
+    "@types/stats": "^0.16.30",
+    "@types/svg.js": "^2.3.1",
+    "@types/three": "^0.93.13",
+    "@typescript-eslint/eslint-plugin": "^5.4.0",
+    "@typescript-eslint/parser": "^5.4.0",
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-eslint": "~5.0.0",
+    "@vue/cli-plugin-typescript": "~5.0.0",
+    "@vue/cli-plugin-vuex": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "@vue/eslint-config-typescript": "^9.1.0",
+    "eslint": "^7.32.0",
+    "eslint-plugin-vue": "^8.0.3",
+    "sass": "^1.64.1",
+    "sass-loader": "^13.3.2",
+    "typescript": "~4.5.5",
+    "vue-chartjs-typescript": "^3.3.3"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true,
+      "vue/setup-compiler-macros": true
+    },
+    "extends": [
+      "plugin:vue/vue3-essential",
+      "eslint:recommended",
+      "@vue/typescript/recommended"
+    ],
+    "parserOptions": {
+      "ecmaVersion": 2020
+    },
+    "rules": {
+      "vue/multi-word-component-names": "off"
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead",
+    "not ie 11"
+  ]
+}

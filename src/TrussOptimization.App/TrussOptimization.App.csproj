@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TrussOptimization.Domain\TrussOptimization.Domain.csproj" />
+  </ItemGroup>
+	<ItemGroup>
+		<Reference Include="Common, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+			<SpecificVersion>False</SpecificVersion>
+			<HintPath>..\..\Binaries\Common.dll</HintPath>
+		</Reference>
+	</ItemGroup>
+</Project>

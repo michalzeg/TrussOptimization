@@ -1,0 +1,47 @@
+<svg width="1400" height="300" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+ <!-- Created with SVG-edit - http://svg-edit.googlecode.com/ -->
+ <defs>
+  <pattern patternUnits="userSpaceOnUse" height="10" width="10" id="smallGrid">
+   <path id="svg_1" stroke-width="0.5" stroke="gray" fill="none" d="m10,0l-10,0l0,10"/>
+  </pattern>
+  <pattern patternUnits="userSpaceOnUse" height="100" width="100" id="grid">
+   <rect id="svg_3" fill="url(#smallGrid)" height="100" width="100"/>
+   <path id="svg_4" stroke="gray" fill="none" d="m100,0l-100,0l0,100"/>
+  </pattern>
+ </defs>
+ <g>
+  <title>Layer 2</title>
+  <rect width="100%" height="100%" fill="url(#grid)" id="svg_18"/>
+  <rect id="svg_3" stroke="gray" fill="none" stroke-width="2" height="100%" width="100%"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <line fill="none" stroke-width="10" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="round" x1="700" y1="270" x2="700" y2="30" id="svg_2" stroke="#337ab7"/>
+  <line stroke="#337ab7" fill="none" stroke-width="10" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="round" x1="700" y1="30" x2="110" y2="150" id="svg_5"/>
+  <line stroke="#337ab7" fill="none" stroke-width="10" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x1="700" y1="30" x2="1300" y2="150" id="svg_6"/>
+  <line stroke="#337ab7" fill="none" stroke-width="10" stroke-linejoin="null" stroke-linecap="round" x1="110" y1="160" x2="300" y2="270" id="svg_7"/>
+  <line stroke="#337ab7" fill="none" stroke-width="10" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x1="1300" y1="150" x2="1100" y2="270" id="svg_8"/>
+  <line fill="none" stroke-width="10" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="round" x1="300" y1="270" x2="1100" y2="270" id="svg_9" stroke="#337ab7"/>
+  <line fill="none" stroke="#337ab7" stroke-width="10" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x1="300" y1="270" x2="300" y2="110" id="svg_10"/>
+  <line fill="none" stroke="#337ab7" stroke-width="10" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x1="500" y1="270" x2="500" y2="70" id="svg_11"/>
+  <line fill="none" stroke="#337ab7" stroke-width="10" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x1="900" y1="270" x2="900" y2="70" id="svg_12"/>
+  <line fill="none" stroke="#337ab7" stroke-width="10" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x1="1100" y1="270" x2="1100" y2="110" id="svg_13"/>
+  <line fill="none" stroke="#337ab7" stroke-width="10" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x1="300" y1="270" x2="500" y2="70" id="svg_14"/>
+  <line fill="none" stroke="#337ab7" stroke-width="10" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x1="500" y1="70" x2="700" y2="270" id="svg_15"/>
+  <line fill="none" stroke="#337ab7" stroke-width="10" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x1="700" y1="270" x2="900" y2="70" id="svg_16"/>
+  <line fill="none" stroke="#337ab7" stroke-width="10" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x1="900" y1="70" x2="1100" y2="270" id="svg_17"/>
+  <ellipse fill="#337ab7" stroke="#337ab7" stroke-width="10" stroke-linejoin="null" stroke-linecap="round" cx="300" cy="110" id="svg_19" rx="10" ry="10"/>
+  <ellipse fill="#337ab7" stroke-width="10" stroke-linejoin="null" stroke-linecap="round" cx="300" cy="110" id="svg_20" rx="10" ry="10" stroke="#337ab7"/>
+  <ellipse fill="#337ab7" stroke-width="10" stroke-linejoin="null" stroke-linecap="round" cx="700" cy="270" rx="10" ry="10" stroke="#337ab7" id="svg_22"/>
+  <ellipse fill="#337ab7" stroke-width="10" stroke-linejoin="null" stroke-linecap="round" cx="500" cy="270" rx="10" ry="10" stroke="#337ab7" id="svg_23"/>
+  <ellipse fill="#337ab7" stroke-width="10" stroke-linejoin="null" stroke-linecap="round" cx="500" cy="70" rx="10" ry="10" stroke="#337ab7" id="svg_24"/>
+  <ellipse fill="#337ab7" stroke-width="10" stroke-linejoin="null" stroke-linecap="round" cx="700" cy="30" rx="10" ry="10" stroke="#337ab7" id="svg_25"/>
+  <ellipse fill="#337ab7" stroke-width="10" stroke-linejoin="null" stroke-linecap="round" cx="100" cy="150" rx="10" ry="10" stroke="#337ab7" id="svg_26"/>
+  <ellipse fill="#337ab7" stroke-width="10" stroke-linejoin="null" stroke-linecap="round" cx="300" cy="270" rx="10" ry="10" stroke="#337ab7" id="svg_27"/>
+  <ellipse fill="#337ab7" stroke-width="10" stroke-linejoin="null" stroke-linecap="round" cx="900" cy="270" rx="10" ry="10" stroke="#337ab7" id="svg_28"/>
+  <ellipse fill="#337ab7" stroke-width="10" stroke-linejoin="null" stroke-linecap="round" cx="900" cy="70" rx="10" ry="10" stroke="#337ab7" id="svg_29"/>
+  <ellipse fill="#337ab7" stroke-width="10" stroke-linejoin="null" stroke-linecap="round" cx="1100" cy="110" rx="10" ry="10" stroke="#337ab7" id="svg_30"/>
+  <ellipse fill="#337ab7" stroke-width="10" stroke-linejoin="null" stroke-linecap="round" cx="1100" cy="270" rx="10" ry="10" stroke="#337ab7" id="svg_31"/>
+  <ellipse fill="#337ab7" stroke-width="10" stroke-linejoin="null" stroke-linecap="round" cx="1300" cy="150" rx="10" ry="10" stroke="#337ab7" id="svg_32"/>
+ </g>
+</svg>
