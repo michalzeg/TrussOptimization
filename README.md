@@ -43,7 +43,7 @@ Run the project using provided PowerShell script
    ```sh
    .\run.ps1
    ```
-Open in your browser http://localhost:4200
+Open in your browser http://localhost:8080
 
 OR use the provided docker image
    ```sh
