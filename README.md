@@ -10,7 +10,7 @@
 <!--
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-Genetic algorithm implementation for structural elements. Algorith finds such sections of the truss girder so that the weight of the girder is the lower under applied loads.
+Genetic algorithm implementation for structural elements. The algorithm finds such sections of the truss girder so that the weight of the girder is the lower under applied loads.
 
 ![image](https://github.com/michalzeg/TrussOptimization/assets/16364170/1d633c5a-193d-442a-9453-89d0154fb848)
 
